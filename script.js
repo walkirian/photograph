@@ -69,7 +69,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- СЛАЙДЕР В СЕКЦИИ "ОБО МНЕ" (только на странице about) ---
   const aboutSlider = document.querySelector(".about__slider");
   if (aboutSlider) {
-    const aboutImages = ["images/about/1.jpg", "images/about/2.jpg"];
+    const aboutImages = [
+      "images/about/1.jpg",
+      "images/about/2.jpg",
+      "images/about/3.jpg",
+    ];
 
     aboutImages.forEach((src, index) => {
       const img = document.createElement("img");
